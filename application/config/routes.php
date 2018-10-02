@@ -56,7 +56,7 @@ $route['admin'] = 'admin/auth';
 
 $route['admin/dashboard2'] = 'admin/dashboard/index2';
 
-$route['adminlte/(:any)'] = 'admin/adminlte/$1';
+$route['adminlte/(:any)'] = 'adminlte/$1';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
